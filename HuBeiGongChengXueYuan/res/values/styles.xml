@@ -1,0 +1,77 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+       <!--  <item name="android:background">@android:color/background_light</item> -->
+    	<!-- <item name="android:windowFrame">@null</item>边框
+        <item name="android:windowIsFloating">true</item>是否浮现在activity之上
+        <item name="android:windowIsTranslucent">false</item>半透明
+        <item name="android:windowNoTitle">true</item>无标题
+        <item name="android:windowBackground">@color/touming</item>背景透明
+        <item name="android:backgroundDimEnabled">false</item>模糊 -->
+    </style>
+    
+    <!--大屏幕 -->
+    <style name="SpecialTextLarge" parent="@style/AppBaseTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style><style name="ButtonTextLarge" parent="@style/AppBaseTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">#E0EEEE</item>
+    </style>
+	<!-- 正常屏幕 -->
+	<style name="SpecialTextNormal" parent="@style/AppBaseTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style><style name="ButtonTextNormal" parent="@style/AppBaseTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">#E0EEEE</item>
+    </style>
+    <!-- 默认正常屏幕 -->
+    <style name="SpecialText" parent="@style/AppBaseTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style><style name="ButtonText" parent="@style/AppBaseTheme">
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">#E0EEEE</item>
+    </style>
+    
+    <!-- 小屏幕 -->
+    <style name="SpecialTextSmall" parent="@style/AppBaseTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style><style name="ButtonTextSmall" parent="@style/AppBaseTheme">
+        <item name="android:textSize">11sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">#E0EEEE</item>
+    </style>
+
+</resources>

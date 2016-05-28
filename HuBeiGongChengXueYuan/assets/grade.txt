@@ -1,0 +1,344 @@
+﻿<html>
+
+<head>
+	<base target='_self'>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+	<meta http-equiv="Content-Language" content="zh-cn">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="http://jwgl.hbeu.cn:8080/hbgcxy/css/csdn.css">
+	<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/dwr/engine.js"></script>
+	<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/dwr/util.js"></script>
+	<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/dwr/interface/dwrMonitor.js.js"></script>
+	<script type="text/javascript" src="http://jwgl.hbeu.cn:8080/hbgcxy/js/jspublic.js"></script>
+	<title>考级成绩管理·湖南强智科技发展有限公司·版权所有</title>
+</head>
+
+<body onload="initSelectDefalt();" topmargin="0" leftmargin="0" oncontextmenu="javascript:return true;">
+
+	<IFRAME HEIGHT=0 style="z-index:99" WIDTH=100% SRC='' NAME=hiddenframe id=hiddenframe style=display:block></IFRAME>
+	<div style="margin:0pt; OVERFLOW: hidden; width:100%;height:auto; position:relative; border:double; border-color:#D1E4F8; border-width:1px " id="alldiv">
+		<form method="post" name="Form1" action="" target="hiddenframe">
+			<input type="hidden" name="check_object_id" id="check_object_id" value=''>
+			<input type="hidden" name="check_object_name" id="check_object_name" value=''>
+
+			<div style="margin:0pt; OVERFLOW: inherit;width:100%;height:26px; background-color:#D1E4F8 ; position: relative;  " id="tblHeadDiv">
+				<table border="1" width="1425" bordercolorlight="#D1E4F8" cellspacing="0" cellpadding="0" bordercolor="#D1E4F8" bordercolordark="#D1E4F8" id=tblHead class=content_tab STYLE="table-layout:fixed">
+					<tr height="25" align="left" bgcolor="#D1E4F8">
+						<th width="45"><font class="noResizeDivClass"> </font>&nbsp;<font color=#0B5B98>序号</font>
+						</th>
+						<th width="90"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,1);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="1 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>学号</font></font></a>
+						</th>
+						<th width="90"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,2);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="2 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>姓名</font></font></a>
+						</th>
+						<th width="110"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,3);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="3 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>上课班级</font></font></a>
+						</th>
+						<th width="140"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,4);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="4 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>身份证号</font></font></a>
+						</th>
+						<th width="120"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,5);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="5 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>考级课程</font></font></a>
+						</th>
+						<th width="120"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,6);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="6 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>考级等级</font></font></a>
+						</th>
+						<th width="100"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,7);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="10 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>分数类笔试成绩</font></font></a>
+						</th>
+						<th width="100"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,8);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="11 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>分数类机试成绩</font></font></a>
+						</th>
+						<th width="80"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,9);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="7 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>分数总成绩</font></font></a>
+						</th>
+						<th width="120"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,10);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="12 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>等级类笔试成绩</font></font></a>
+						</th>
+						<th width="120"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,11);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="13 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>等级类机试成绩</font></font></a>
+						</th>
+						<th width="90"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,12);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="8 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>等级总成绩</font></font></a>
+						</th>
+						<th width="100"><font class="resizeDivClass" onmousedown="MouseDownToResize(this);" onmousemove="MouseMoveToResize(this,13);" onmouseup="MouseUpToResize(this);"></font><a href='javascript:void(0);' onclick='javascript:window.Form1.OrderBy.value="9 desc";creating.style.visibility="visible";window.Form1.PageNum.value=1;window.Form1.submit();alldiv.disabled = true;'
+							title='按此字段排序'><font color=#0B5B98>考级时间</font></font></a>
+						</th>
+					</tr>
+				</table>
+				<div id="cwhdiv" style="margin:0pt; overflow:hidden; width:14px; height:28px ; background-color:#D1E4F8; position: absolute;left:expression(document.getElementById('alldiv').offsetWidth-20); top:0px; z-index:9; border:solid; border-color:#FFFFFF;border-width:0px;vertical-align:middle ">
+					<SPAN class="navPoint" id="switchPointTop" title="向上移动记录" onmouseover="javascript:scrollDiv('up');" onmouseout="javascript:StopScroll();">5</SPAN>
+					<SPAN class="navPoint" id="switchPointButtom" title="向下移动记录" onmouseover="javascript:scrollDiv('Down');" onmouseout="javascript:StopScroll();">6</SPAN>
+				</div>
+			</div>
+			<div style="margin:0pt; OVERFLOW: auto;width:100%;height:300px; position:relative;  " id="mxhDiv" onscroll="javascript:document.getElementById('tblHeadDiv').style.pixelLeft = -this.scrollLeft;/*document.getElementById('cwhdiv').style.left = document.getElementById('alldiv').offsetWidth - 20 + this.scrollLeft;*/">
+				<table border="1" width="1425" bordercolorlight="#D1E4F8" cellspacing="0" cellpadding="0" bordercolor="#D1E4F8" bordercolordark="#ffffff" id=mxh STYLE="table-layout:fixed">
+					<tr heigth=2 3 id="1" class="smartTr" onclick="javascript:gb_bgcolor2(this,1);" onMouseOver="this.style.cursor='hand'" align="left">
+						<td width="45" height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">&nbsp;1</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="90" title="012301114106">012301114106</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="90" title="郭焕文">郭焕文</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="110" title="0123011141">0123011141</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="140" title="420114199501082810">420114199501082810</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="120" title="普通话水平测试">普通话水平测试</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="120" title="三级甲等">三级甲等</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="100" title="0">0</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="100" title="0">0</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="80" title="77.9">77.9</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="120">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="120">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="90">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="100" title="2013-11-20">2013-11-20</td>
+					</tr>
+					<tr heigth=2 3 id="2" class="smartTr" onclick="javascript:gb_bgcolor2(this,2);" onMouseOver="this.style.cursor='hand'" align="left">
+						<td width="45" height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">&nbsp;2</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="012301114106">012301114106</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="郭焕文">郭焕文</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0123011141">0123011141</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="420114199501082810">420114199501082810</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="英语等级考试">英语等级考试</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="CET4">CET4</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="371">371</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0">0</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="371">371</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="2014-12-20">2014-12-20</td>
+					</tr>
+					<tr heigth=2 3 id="3" class="smartTr" onclick="javascript:gb_bgcolor2(this,3);" onMouseOver="this.style.cursor='hand'" align="left">
+						<td width="45" height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">&nbsp;3</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="012301114106">012301114106</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="郭焕文">郭焕文</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0123011141">0123011141</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="420114199501082810">420114199501082810</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="英语等级考试">英语等级考试</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="CET4">CET4</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="414">414</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0">0</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="414">414</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="2014-06-14">2014-06-14</td>
+					</tr>
+					<tr heigth=2 3 id="4" class="smartTr" onclick="javascript:gb_bgcolor2(this,4);" onMouseOver="this.style.cursor='hand'" align="left">
+						<td width="45" height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;">&nbsp;4</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="012301114106">012301114106</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="郭焕文">郭焕文</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0123011141">0123011141</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="420114199501082810">420114199501082810</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="普通话水平测试">普通话水平测试</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="二级乙等">二级乙等</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0">0</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="0">0</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="80">80</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000">&nbsp;</td>
+						<td height="23" style="text-overflow:ellipsis; white-space:nowrap; overflow:hidden;" width="2000" title="2014-06-11">2014-06-11</td>
+					</tr>
+				</table>
+			</div>
+			<input type="hidden" name="where1" value="#!@ECQAaARiQ2E=">
+			<input type="hidden" name="where2" value="null">
+			<input type="hidden" name="OrderBy" value="">
+			<input type="hidden" name="keyCode" value="#!@ECUAbwRi">
+			<input type="hidden" name="isOutJoin" value="false">
+			<input type="hidden" name="PageNum" value="1">
+			<input type="hidden" name="oldSelectRow" value="">
+			<input type="hidden" name="printHQL" value="#!@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">
+			<input type="hidden" name="sqlString" value="#!@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">
+			<input type="hidden" name="sqlArgs" value="">
+			<input type="hidden" name="isSql" value="true">
+			<input type="hidden" name="beanName" value="">
+			<input type="hidden" name="printPageSize" value="260">
+			<input type="hidden" name="key" value="#!@ECUAbwRi">
+			<input type="hidden" name="field" value="#!@EMQA8gTpQ4RXOFU2U2sVJgI9AjhHIlQuV4ISwF+UFbwHOBdwBmtWZUAvVzxRYwIsF9sAzFC6QdlV
+
+4AXiSv4A5BAvAGYRfFRnVTpAI1NgADIAKRXfUupWt0CYB9Zd8RX9BcUXeAZlQ3tXM1U9RHcCNAI3
+
+Ai1HrVS+V+4So1/oAp4QpgKbEXxUY0AvVzRRaRUmADcAM1ApQahV7AW+SvQA5wfKF/4E5UN7VzRA
+
+KFNgADgXIwIzUjdWLEDyB9ZdnxW6BcAAtRH3Vp5A31fRRPUCyQK7Fb5QP1QzV2ISL19mAmoQJAJn
+
+BmFDbVW3QMRTmxXqAMUA40epVvpVmgXWSvEAmwe+F+oEaVRnQCRVPUR3AjoXIwIxUjdBO1flB9Zd
+
+nxW6BdcAiRH1Vp1XvkC6UWkVIAA/FSdQP1Q6QHUFLl/iApgQqQLhBpFDoVWxV89EjADWF6ECyEeu
+
+VqhVahIkXWcAaAczF3gEYlRkQCVVK1PkFd8CuxWgUMVB91fpB/pKiAKEBbMAnBH6VvxXOEAjUWAC
+
+OhcjADlHI1YyQHUFLl/iFY8HvgLhBoZDnVWzV8xE+gCqAD8VLlI9QSZXaBIsXWUAfhCqAOkE71Tg
+
+QN9VtlPtFfMCPQI4RyhUM0B/BTNKcgJg">
+			<input type="hidden" name="totalPages" value="1">
+			<Input type="hidden" id="ZdSzCode" name="ZdSzCode">
+			<Input type="hidden" id="ZdSzCodeValue" name="ZdSzCodeValue">
+			<Input type="hidden" id="ZdSzValueTemp" name="ZdSzValueTemp">
+			<Input type="hidden" id="ZDSXkeydm" name="ZDSXkeydm">
+			<Input type="hidden" id="PlAction" name="PlAction">
+			<input type="hidden" name="tableFields" id="tableFields" value="学号:1:1:90,姓名:2:1:90,上课班级:3:1:110,身份证号:4:1:140,考级课程:5:1:120,考级等级:6:1:120,分数类笔试成绩:10:1:100,分数类机试成绩:11:1:100,分数总成绩:7:1:80,等级类笔试成绩:12:1:120,等级类机试成绩:13:1:120,等级总成绩:8:1:90,考级时间:9:1:100">
+			<input type="hidden" name="otherFields" id="otherFields" value="null">
+			<div id="creating" style="position: absolute; top: 245; z-index: 0; visibility: hidden; height: 74">
+				<table width=100% border=0 cellspacing=0 cellpadding=0 ID="Table111">
+					<tr>
+						<td width=2%></td>
+						<td align="center">
+							<table border=0 cellspacing=0 cellpadding=0 width=330>
+								<tr>
+									<td bgcolor=#ff9900 align="center">
+										<table width="100%" height=70 border=0 cellspacing=2 cellpadding=0 ID="Table222">
+											<tr>
+												<td bgcolor=#eeeeee align=center width="100%" height="100%" class="xz">系统正在读取数据信息， 请稍候...</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td width=2%></td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</div>
+	<div id="TableSetDiv" style="POSITION: absolute;" onmouseover="this.style.cursor='hand';" onclick="javascript:createTableSetDiv();" title="设置表格显示元素及顺序">
+		<img border=0 src="/hbgcxy/framework/images/more.gif" width="12px" height="12px" />
+	</div>
+	<script>
+		document.getElementById('TableSetDiv').style.left=document.getElementById('alldiv').offsetLeft+2;document.getElementById('TableSetDiv').style.top=findPositionY(document.getElementById('tblHead'))+5;
+	</script>
+	<div style="margin:0pt; OVERFLOW: inherit;width:100%;height:auto; position:relative;   " id="tblBmDiv">
+		<table border="0" width="100%" bordercolorlight="#588FC7" cellspacing="0" cellpadding="0" bordercolor="#588FC7" bordercolordark="#ffffff" id=tblBm STYLE="table-layout:fixed">
+			<tr height="25" width=100% bgcolor="#E8F8FF">
+				<td align="left"> &nbsp;
+				</td>
+				<td width='220' align=right>
+					<div id="PageNavigation">
+						<img src="http://jwgl.hbeu.cn:8080/hbgcxy/framework/images/firstno.gif" />
+						<img src="http://jwgl.hbeu.cn:8080/hbgcxy/framework/images/previousno.gif" />
+						<img src="http://jwgl.hbeu.cn:8080/hbgcxy/framework/images/nextno.gif" />
+						<img src="http://jwgl.hbeu.cn:8080/hbgcxy/framework/images/lastno.gif" />&nbsp;&nbsp;&nbsp;共<font color="#FF0000">4</font>条&nbsp;&nbsp;&nbsp;&nbsp;</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>

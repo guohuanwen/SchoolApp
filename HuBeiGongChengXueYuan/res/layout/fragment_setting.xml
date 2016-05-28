@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0EEEE"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/listback"
+        >
+        
+   
+    <Button 
+        android:id="@+id/button1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@null"
+        android:text="当前周数"/>
+    <Button 
+        android:id="@+id/button2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@null"
+        android:text="关于"/>
+ </LinearLayout>
+</LinearLayout>
